@@ -4,7 +4,7 @@ def personal_details():
 
     name, age = "Abhi",19
 
-    address = "Maharashtra , sangli , india"
+    address = "Bangalore, Karnataka, India"
 
     print("name : {}\nAge: {}\nAddress: {}".format(name, age, address))
 
