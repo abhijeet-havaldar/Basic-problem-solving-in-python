@@ -1,0 +1,14 @@
+#Q:Write a Python program to add two objects if both objects are integers.
+
+def add_numbers(a,b):
+
+    if not(isinstance(a,int) and isinstance(b,int)):
+
+        return "Input must be integer"
+    
+    return a + b
+
+print(add_numbers(10,20))
+print(add_numbers(10,20.23))
+print(add_numbers('5',6))
+print(add_numbers('5','6'))
