@@ -1,0 +1,14 @@
+#Q:Write a Python program to calculate the body mass index
+
+def calculate_bmi(weight, hight):
+    return weight / (hight  ** 2)
+
+def main():
+    weight = float(input("Enter weight (kg):"))
+    height = float(input("Enter height (m):"))
+
+    bmi = calculate_bmi(weight,height)
+    print(f"BMI:{bmi:.2f}")
+
+if __name__ == "__main__":
+    main()
