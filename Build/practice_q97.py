@@ -1,0 +1,7 @@
+#Q:Write a Python program to list the special variables used in the language.
+
+s_var_name = sorted((set(globals().keys()) | set(__builtins__.__dict__.keys())) -set('_ names i'.split()))
+
+print()
+print('\n'.join(''.join(s_var_name[i:i+8]) for i in range(0,len(s_var_name),8)))
+print()
