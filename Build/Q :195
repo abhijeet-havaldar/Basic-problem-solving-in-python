@@ -22,4 +22,5 @@ def longest_word_sequence(s,d):
     return long_word
 
 print(longest_word_sequence("Green", {"Gn", "Gren", "ree", "en"}))
+
 print(longest_word_sequence("pythonexercises", {"py", "ex", "exercises"}))
