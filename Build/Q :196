@@ -11,4 +11,5 @@ def is_happy_num(n):
 
 print(is_happy_num(7))
 print(is_happy_num(932))
+
 print(is_happy_num(6))
