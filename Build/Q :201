@@ -18,4 +18,5 @@ def reverse_vowels(str1):
 print(reverse_vowels("w3resource"))
 print(reverse_vowels("Python"))
 print(reverse_vowels("Perl"))
+
 print(reverse_vowels("USA"))
