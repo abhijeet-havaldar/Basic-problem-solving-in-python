@@ -15,4 +15,5 @@ def remove_element(array_nums, val):
 print(remove_element([1,2,3,4,5,6,7,5],5))
 print(remove_element([10, 10, 10, 10, 10], 10))       
 print(remove_element([10, 10, 10, 10, 10], 20))       
+
 print(remove_element([], 1))
