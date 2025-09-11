@@ -6,4 +6,5 @@ def check_isogram(str1):
 print(check_isogram("w3resource"))
 print(check_isogram("w3r"))
 print(check_isogram("Python"))
+
 print(check_isogram("Jawa"))
