@@ -12,4 +12,5 @@ def test_three_equal(x,y,z):
 print(test_three_equal(1,1,1))
 print(test_three_equal(1,2,2))
 print(test_three_equal(-1,-2,-3))
+
 print(test_three_equal(-1,-1,-1))
