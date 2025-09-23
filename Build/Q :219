@@ -16,4 +16,5 @@ print("Sum of the three lowest positive numbers of the said array:", sum_three_s
 nums = [0, 1,2,3,4,5]
 
 print("\nOriginal list of numbers :", nums)
+
 print("Sum of three lowest positive numbers of the said array:", sum_three_smallest_nums(nums))
