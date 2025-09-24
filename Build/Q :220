@@ -13,4 +13,5 @@ print("new string: ", new_string(text))
 
 text = "12345"
 print("\nOriginal String: ", text)
+
 print("new string: ", new_string(text))
