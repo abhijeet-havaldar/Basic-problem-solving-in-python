@@ -14,3 +14,4 @@ print("Largest product of the pair of adjecent element of the said list:",adjece
 nums = [2,3]
 print("\nOriginal list: ",nums)
 print("Largest product of the pair of adjecent element of the said list:",adjecent_num_product(nums))
+
