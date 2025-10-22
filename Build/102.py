@@ -1,0 +1,13 @@
+#Q:Write a Python program to create a string with no duplicate consecutive letters from a given string.
+
+def no_consecutive_letters(s):
+    result = ""
+    for char in s:
+        if not result or char != result[-1]:
+            result += char
+    return result
+
+print(no_consecutive_letters("PPYYYTTHON"))
+print(no_consecutive_letters("PPyyythonnn"))
+print(no_consecutive_letters("Java"))
+print(no_consecutive_letters("PPPHHHPPP"))
