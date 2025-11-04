@@ -1,0 +1,29 @@
+#Q:Write a Python program to test whether a given integer is a Pandigital number or not.
+
+def is_pandigital_num(n):
+    return len(set(str(n))) == 10
+
+n = 1023456897
+print("Original number:", n)
+print("Check the said number is Pandigital number or not?")
+print(is_pandigital_num(n))
+
+n = 1023456798
+print("\nOriginal number:", n)
+print("Check the said number is Pandigital number or not?")
+print(is_pandigital_num(n))
+
+n = 1023457689
+print("\nOriginal number:", n)
+print("Check the said number is Pandigital number or not?")
+print(is_pandigital_num(n))
+
+n = 1023456789
+print("\nOriginal number:", n)
+print("Check the said number is Pandigital number or not?")
+print(is_pandigital_num(n))
+
+n = 102345679
+print("\nOriginal number:", n)
+print("Check the said number is Pandigital number or not?")
+print(is_pandigital_num(n))
