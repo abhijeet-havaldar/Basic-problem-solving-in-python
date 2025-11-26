@@ -14,4 +14,5 @@ def is_not_prime(n):
 print("Nonprime numbers between 1 to 100:")
 
 for x in filter(is_not_prime, range(1,101)):
+
     print(x)
