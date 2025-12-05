@@ -1,0 +1,16 @@
+#Q:Write a Python program to remove the first and last elements from a given string.
+
+def test(input_str):
+    return input_str if len(input_str) < 3 else input_str[1:-1]
+
+str1 = "PHP"
+print("Original string: ", str1)
+print("Removing the first and last elements from the said string: ",test(str1))
+
+str2 = "Python"
+print("\nOriginal string: ",str2)
+print("Removing the first and last elements from the said string: ", test(str2))
+
+str3 = "JavaScript"
+print("\nOriginal string: ",str3)
+print("removing the first and last elements from the said string: ", test(str3))
