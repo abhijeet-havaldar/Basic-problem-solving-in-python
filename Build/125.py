@@ -1,0 +1,16 @@
+#Q:Write a Python program to reverse a given string in lower case.
+
+def test(input_str):
+    return input_str[::-1].lower()
+
+str1 = "PHP"
+print("Original string:", str1)
+print("Reverse the said string in lower case:", test(str1))
+
+str2 = "JavaScript"
+print("\nOriginal string:", str2)
+print("Reverse the said string in lower case:", test(str2))
+
+str3 = "PHPP"
+print("\nOriginal string:", str3)
+print("Reverse the said string in lower case:", test(str3))
