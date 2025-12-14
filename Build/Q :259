@@ -14,3 +14,4 @@ print("Indices of all lower case latters of the said string:\n", test(text))
 text = "PHP"
 print("Original string :", text)
 print("Indices of all lower case latters of the said string:\n", test(text))
+
